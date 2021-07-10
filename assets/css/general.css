@@ -24,4 +24,6 @@
 	position: fixed;
 	width: 100vw;
 	height: 8vh;
+	background: var(--lighter);
+	border-bottom: 2px solid var(--darkest);
 }
