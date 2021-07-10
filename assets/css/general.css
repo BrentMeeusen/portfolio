@@ -29,3 +29,11 @@
 	background: var(--lighter);
 	border-bottom: 2px solid var(--darkest);
 }
+.header .open {
+	height: 8vh;
+}
+.header .open img {
+	height: 100%;
+	width: auto;
+	margin: 0 0.5em;	
+}
