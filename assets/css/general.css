@@ -1,3 +1,12 @@
+:root {
+	--lightest: #E3E2DF;
+	--lighter: #E3AFBC;
+	--light: #EE4C7C;
+	--darker: #9A1750;
+	--darkest: #5D001E;
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
