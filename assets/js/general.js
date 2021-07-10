@@ -1,9 +1,9 @@
 const menu = {
-	init: () => {
-		console.log(this, "joemama");
-	},
 	open: () => {
-
+		document.getElementById("nav").style.left = "0";
+	},
+	close: () => {
+		document.getElementById("nav").style.left = "-80vw";
 	}
 }
 
@@ -12,9 +12,6 @@ const menu = {
 
 
 window.addEventListener("load", () => {
-
-	// Initialise menu
-	menu.init();
 
 	// Set click event for opening the menu
 	document.getElementById("open-menu").addEventListener("click", () => {
