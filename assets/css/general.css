@@ -16,12 +16,14 @@
 
 .nav {
 	position: fixed;
+	z-index: 10;
 	width: 80vw;
 	left: -80vw;
 }
 
 .header {
 	position: fixed;
+	z-index: 9;
 	width: 100vw;
 	height: 8vh;
 	background: var(--lighter);
