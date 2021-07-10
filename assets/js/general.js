@@ -3,7 +3,7 @@ const menu = {
 		document.getElementById("nav").style.left = "0";
 	},
 	close: () => {
-		document.getElementById("nav").style.left = "-80vw";
+		document.getElementById("nav").style.left = -document.getElementById("nav").clientWidth + "px";
 	}
 }
 
