@@ -15,6 +15,18 @@
 }
 
 
+
+/* Open/close menu icons */
+.nav .icon-container, .header .icon-container {
+	height: 48px;
+} .nav .icon, .header .icon {
+	height: 100%;
+	width: auto;
+}
+
+
+
+/* Navigation */
 .nav {
 	position: fixed;
 	z-index: 10;
@@ -27,6 +39,9 @@
 	transition: 500ms ease-out;
 }
 
+
+
+/* Fixed header on top */
 .header {
 	position: fixed;
 	z-index: 9;
@@ -36,10 +51,8 @@
 	border-bottom: 2px solid var(--darkest);
 }
 .header .open {
-	height: 8vh;
-}
-.header .open img {
 	height: 100%;
-	width: auto;
-	margin: 0 0.5em;	
+}
+.header .open .icon {
+	margin: 0 0.5em;
 }
