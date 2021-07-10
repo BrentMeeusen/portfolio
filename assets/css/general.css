@@ -11,14 +11,20 @@
 	margin: 0;
 	padding: 0;
 	font-family: "Noto Sans JP", sans-serif;
+	box-sizing: border-box;
 }
 
 
 .nav {
 	position: fixed;
 	z-index: 10;
-	width: 80vw;
-	left: -80vw;
+	width: 85vw;
+	height: 110vh;
+	left: -85vw;
+
+	background: var(--lighter);
+	border-right: 2px solid var(--darkest);
+	transition: 500ms ease-out;
 }
 
 .header {
