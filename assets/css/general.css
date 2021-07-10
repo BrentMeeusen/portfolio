@@ -10,3 +10,9 @@
 	width: 80vw;
 	left: -80vw;
 }
+
+.header {
+	position: fixed;
+	width: 100vw;
+	height: 8vh;
+}
