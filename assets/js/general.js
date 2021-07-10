@@ -18,4 +18,9 @@ window.addEventListener("load", () => {
 		menu.open();
 	});
 
+	// Set click event for closing the menu
+	document.getElementById("close-menu").addEventListener("click", () => {
+		menu.close();
+	});
+
 });
