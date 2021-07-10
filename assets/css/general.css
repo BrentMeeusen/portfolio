@@ -38,6 +38,9 @@
 	border-right: 2px solid var(--darkest);
 	transition: 500ms ease-out;
 }
+.nav .close {
+	float: right;
+}
 
 
 
