@@ -127,6 +127,28 @@
 
 
 
+/* Headers */
+h2 {
+	text-align: center;
+	margin: 1em 0;
+}
+h2::after {
+	content: "";
+	position: relative;
+	display: block;
+	left: 40vw;
+	width: 20vw;
+	top: 8px;
+	height: 4px;
+	border-radius: 2px;
+	background: var(--text);
+}
+
+
+
+
+
+
 
 
 
