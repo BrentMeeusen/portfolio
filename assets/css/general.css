@@ -1,12 +1,12 @@
 /**
  Lazy Loading
  */
- .lazy-image {
+ .lazy {
     filter: blur(0);
     transition: filter .25s linear;
 }
 
-.lazy-image.small {
+.lazy.small {
     filter: blur(8px);
     transition-duration: 0s;
 }
