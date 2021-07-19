@@ -141,4 +141,12 @@ h1 {
 	text-shadow: 2px 2px 3px #222;
 	text-align: center;
 }
+.home .background-container::after {
+	content: "";
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background: #000;
+	opacity: 0.45;
+}
 
