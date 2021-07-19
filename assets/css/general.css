@@ -212,12 +212,12 @@ h1 span {
 	width: 100%;
 	height: 2em;
 	margin: 0.5em 0;
-	background: var(--lighter);
+	background: #DDD;
 }
 .skill {
 	width: 100px;
 	height: 100%;
-	background: var(--light);
+	background: var(--darker);
 	display: block;
 	float: left;
 	color: #FFF;
@@ -227,7 +227,11 @@ h1 span {
 .progress {
 	display: block;
 	float: left;
-	width: calc(100% - 100px);
 	height: 100%;
+	background: var(--light);
 }
+.p90 { width: calc(90% - 100px); }
+.p85 { width: calc(85% - 100px); }
+.p80 { width: calc(80% - 100px); }
+.p70 { width: calc(70% - 100px); }
 
