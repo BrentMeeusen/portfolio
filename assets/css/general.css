@@ -199,4 +199,7 @@ h1 span {
 	border-radius: 50%;
 	box-shadow: 0 0 6px -1px #222;
 }
+.about-me p, .about-me .skills {
+	padding: 0 2em;
+}
 
