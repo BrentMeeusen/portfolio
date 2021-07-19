@@ -132,7 +132,7 @@
 
 
 /* Home */
-h1, h1 span {
+h1 {
 	color: #FFF;
 	position: absolute;
 	top: 0;
@@ -141,6 +141,9 @@ h1, h1 span {
 	font-size: 1.6rem;
 	text-shadow: 2px 2px 3px #222;
 	text-align: center;
+}
+h1 span {
+	color: #FFF;
 }
 .home .background-container::after {
 	content: "";
