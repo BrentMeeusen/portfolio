@@ -230,8 +230,8 @@ h1 span {
 	height: 100%;
 	background: var(--light);
 }
-.p90 { width: calc(90% - 100px); }
-.p85 { width: calc(85% - 100px); }
-.p80 { width: calc(80% - 100px); }
-.p70 { width: calc(70% - 100px); }
+.p90 { width: calc((100% - 100px) * 0.90); }
+.p85 { width: calc((100% - 100px) * 0.85); }
+.p80 { width: calc((100% - 100px) * 0.80); }
+.p70 { width: calc((100% - 100px) * 0.70); }
 
