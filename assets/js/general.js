@@ -183,6 +183,11 @@ window.addEventListener("load", () => {
 	lazy.getAllImagesByClassName();
 	lazy.loadImages();
 
+	// Set age
+	const birthday = new Date(2002, 0, 23);
+	const diff = new Date(Date.now() - birthday.getTime());
+	document.getElementById("age").innerHTML = diff.getFullYear() - 1970;
+
 	// Set click event for opening the menu
 	document.getElementById("open-menu").addEventListener("click", () => {
 		menu.open();
