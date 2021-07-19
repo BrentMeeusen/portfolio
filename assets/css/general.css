@@ -229,6 +229,8 @@ h1 span {
 	float: left;
 	height: 100%;
 	background: var(--light);
+	color: #FFF;
+	padding: 3px 0.4em;
 }
 .p90 { width: calc((100% - 100px) * 0.90); }
 .p85 { width: calc((100% - 100px) * 0.85); }
