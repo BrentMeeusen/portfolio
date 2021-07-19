@@ -123,3 +123,22 @@
 
 
 
+
+
+
+
+
+
+
+/* Home */
+h1 {
+	color: #FFF;
+	position: absolute;
+	top: 0;
+	height: 100vh;
+	padding: 50% 10vw;
+	font-size: 1.6rem;
+	text-shadow: 2px 2px 3px #222;
+	text-align: center;
+}
+
