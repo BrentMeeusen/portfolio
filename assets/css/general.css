@@ -127,7 +127,10 @@
 
 
 
-/* Headers */
+/* All modules */
+.module {
+	padding: 1.5em 0;
+}
 h2 {
 	text-align: center;
 	margin: 1em 0;
@@ -169,6 +172,7 @@ h1 span {
 }
 .home {
 	height: 100vh;
+	padding: 0;
 }
 .home .background-container::after {
 	content: "";
