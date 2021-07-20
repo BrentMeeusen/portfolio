@@ -257,17 +257,17 @@ h1 span {
 .portfolio {
 	background: #EEE;
 }
-.project {
-	position: relative;
-	width: 100%;
+.projects {
 	padding: 0 1em;
 }
-.project h3 {
+.project {
+	position: relative;
 	width: 100%;
 }
 
 .project .background-container {
 	position: relative;
+	width: 100%;
 }
 .project .background-container::after {
 	content: "";
@@ -282,6 +282,10 @@ h1 span {
 .project .project-info {
 	position: absolute;
 	top: 0;
+	width: 100%;
+	background-color: blue;
+
+	text-align: center;
 }
 
 
