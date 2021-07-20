@@ -258,11 +258,20 @@ h1 span {
 	background: #EEE;
 }
 .project {
+	position: relative;
 	width: 100%;
 	padding: 0 1em;
 }
 .project h3 {
 	width: 100%;
+}
+
+.project .background-container {
+	position: relative;
+}
+.project .project-info {
+	position: absolute;
+	top: 0;
 }
 
 
