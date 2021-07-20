@@ -168,7 +168,7 @@ const menu = {
 		document.getElementById("nav").style.left = "0";
 	},
 	close: () => {
-		document.getElementById("nav").style.left = -document.getElementById("nav").clientWidth + "px";
+		document.getElementById("nav").style.left = -document.getElementById("nav").clientWidth - 5 + "px";
 	}
 }
 const lazy = new LazyLoading("lazy");
