@@ -262,6 +262,7 @@ h1 span {
 .project {
 	position: relative;
 	width: 100%;
+	height: 12em;
 }
 
 .project .background-container {
