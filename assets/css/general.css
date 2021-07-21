@@ -258,7 +258,7 @@ h1 span {
 	background: #EEE;
 }
 .projects {
-	padding: 0 1em;
+	margin: 0 1em;
 }
 .project {
 	position: relative;
@@ -277,6 +277,7 @@ h1 span {
 	width: 100%;
 	height: 100%;
 	background: #FFF;
+	transition: 250ms ease-out;
 	opacity: 0.75;
 }
 .project .project-info {
@@ -291,6 +292,15 @@ h1 span {
 }
 .project h4 {
 	color: var(--darker);
+}
+
+
+
+.projects:hover .background-container::after {
+	background: #000;
+} .project:hover .background-container::after {
+	background: #FFF;
+	opacity: 1;
 }
 
 
