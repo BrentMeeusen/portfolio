@@ -383,6 +383,10 @@ h1 span {
 	display: flex;
 	justify-content: space-evenly;
 }
+.social {
+	width: 48px;
+	height: 48px;
+}
 .social img {
 	width: 100%;
 	height: auto;
