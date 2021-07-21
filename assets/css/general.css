@@ -378,4 +378,16 @@ h1 span {
 
 
 
+.socials {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.social img {
+	width: 100%;
+	height: auto;
+}
+
+
+
 
