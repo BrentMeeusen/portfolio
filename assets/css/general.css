@@ -302,10 +302,17 @@ h1 span {
 	bottom: 2em;
 	left: 50%;
 	padding: 0.5em 1em;
-	transform: translate(-50%, 80px);
 	border: 3px solid var(--darker);
 	background: #FFF;
+
 	transition: 250ms ease-out;
+	transform: translate(-50%, 30px);
+	opacity: 0;
+}
+.project h3, .project h4 {
+	transition: 250ms ease-out;
+	transform: translateY(-10px);
+	opacity: 1;
 }
 .project .view-more:hover {
 	color: #FFF;
@@ -321,6 +328,10 @@ h1 span {
 	opacity: 1;
 } .project:hover .view-more {
 	transform: translate(-50%, 0);
+	opacity: 1;
+} .project:hover h3, .project:hover h4 {
+	transform: translateY(0);
+	opacity: 1;
 }
 
 
