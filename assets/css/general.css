@@ -337,3 +337,29 @@ h1 span {
 
 
 
+
+
+
+
+
+
+/* Contact */
+.form {
+	margin: 0 2em;
+}
+.form form * {
+	width: 100%;
+	padding: 0.3em 0.6em;
+	margin: 0.5em 0;
+	border: 2px solid var(--darker);
+}
+.form textarea {
+	height: 8em;
+}
+.form *:focus {
+	outline: none;
+}
+
+
+
+
