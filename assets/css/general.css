@@ -395,3 +395,23 @@ h1 span {
 
 
 
+
+
+
+
+
+
+/* Footer */
+.footer {
+	background: #222;
+	text-align: center;
+	padding: 2em 0;
+}
+.footer * {
+	color: #CCC;
+	padding: 0.25em 0;
+}
+
+
+
+
