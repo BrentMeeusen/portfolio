@@ -97,10 +97,9 @@
 	border-bottom: 2px solid var(--darkest);
 }
 .header .open {
-	height: 100%;
-}
-.header .open .icon {
 	margin: 0 0.5em;
+	width: 8vh;
+	height: 100%;
 }
 
 
