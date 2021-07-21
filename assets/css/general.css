@@ -297,14 +297,19 @@ h1 span {
 	color: var(--darker);
 }
 
-.project .project-info .view-more {
+.project .view-more {
 	position: absolute;
 	bottom: 2em;
 	left: 50%;
 	padding: 0.5em 1em;
 	transform: translate(-50%, 0);
-	border: 2px solid var(--darker);
+	border: 3px solid var(--darker);
 	background: #FFF;
+	transition: 250ms ease-out;
+}
+.project .view-more:hover {
+	color: #FFF;
+	background: var(--darker);
 }
 
 
