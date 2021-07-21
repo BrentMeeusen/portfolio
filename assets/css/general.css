@@ -25,11 +25,13 @@
  */
 :root {
 	--text: #222;
-	--lightest: #E3E2DF;
-	--lighter: #E3AFBC;
+
+	--nav-background: #FFF;
+	--nav-accent: #DDD;
+	--nav-border: var(--darker);
+
 	--light: #EE4C7C;
 	--darker: #9A1750;
-	--darkest: #5D001E;
 }
 
 
@@ -61,8 +63,8 @@
 	height: 110vh;
 	left: -85vw;
 
-	background: var(--lighter);
-	border-right: 2px solid var(--darkest);
+	background: var(--nav-background);
+	border-right: 2px solid var(--nav-border);
 	transition: 500ms ease-out;
 }
 .nav .close {
@@ -82,7 +84,7 @@
 	transition: 250ms ease-out;
 }
 .nav li:hover {
-	background: var(--light);
+	background: var(--nav-accent);
 	padding-left: 1.5em;
 }
 
@@ -94,8 +96,8 @@
 	z-index: 9;
 	width: 100vw;
 	height: 8vh;
-	background: var(--lighter);
-	border-bottom: 2px solid var(--darkest);
+	background: var(--nav-background);
+	border-bottom: 2px solid var(--nav-border);
 }
 .header .open {
 	margin: 0 0.5em;
